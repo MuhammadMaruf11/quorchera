@@ -7,10 +7,10 @@ import images from "../../utilities/footer";
 
 const Footer = () => {
   return (
-    <>
+    <div className='bg-gray-100'>
       <div className="container flex py-16 mx-auto">
         <div className="w-1/4">
-          <h4 className="mb-4 text-lg font-bold text-black">Quorchera</h4>
+          <h4 className="mb-4 text-lg font-semibold text-black">Quorchera</h4>
           <ul>
             {Quorchera.map((index) => (
               <li
@@ -23,7 +23,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="w-1/4">
-          <h4 className="mb-4 text-lg font-bold text-black">Community</h4>
+          <h4 className="mb-4 text-lg font-semibold text-black">Community</h4>
           <ul>
             {Community.map((index) => (
               <li
@@ -36,7 +36,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="w-1/4">
-          <h4 className="mb-4 text-lg font-bold text-black">More</h4>
+          <h4 className="mb-4 text-lg font-semibold text-black">More</h4>
           <ul>
             {More.map((index) => (
               <li
@@ -98,7 +98,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

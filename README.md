@@ -4,13 +4,22 @@ using Tailwind CSS fontawesome 6
 
 ## Available Scripts
 
+build node_modules
+
 ### `npm install`
 
-build node_modules then
+then
+
+build custom modules
+
+
+create router-dom for single page applicatio
 
 ### npm install react-router-dom@6
 
-create router-dom for single page application
+create accordion
+
+### npm i react-accessible-accordion
 
 In the project directory, you can run:
 

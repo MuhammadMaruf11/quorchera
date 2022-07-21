@@ -1,0 +1,82 @@
+[
+    {
+        "id":"1",
+        "content":"google data analyst"
+    },
+    {
+        "id":"2",
+        "content":"Google Project Management"
+    },
+    {
+        "id":"3",
+        "content":"Google UX Design"
+    },
+    {
+        "id":"4",
+        "content":"Google IT Support"
+    },
+    {
+        "id":"5",
+        "content":"IBM Data Science"
+    },
+    {
+        "id":"6",
+        "content":"IBM Data Analyst"
+    },
+    {
+        "id":"7",
+        "content":"IBM Data Analytics with Excel and R"
+    },
+    {
+        "id":"8",
+        "content":"IBM Cybersecurity Analyst"
+    },
+    {
+        "id":"9",
+        "content":"IBM Data Engineering"
+    },
+    {
+        "id":"10",
+        "content":"IBM Full Stack Cloud Developer"
+    },
+    {
+        "id":"11",
+        "content":"Facebook Social Media Marketing"
+    },
+    {
+        "id":"12",
+        "content":"Facebook Marketing Analytics"
+    },
+    {
+        "id":"13",
+        "content":"Salesforce Sales Development Representative"
+    },
+    {
+        "id":"14",
+        "content":"Salesforce Sales Operations"
+    },
+    {
+        "id":"15",
+        "content":"Intuit Bookkeeping"
+    },
+    {
+        "id":"16",
+        "content":"Preparing for Google Cloud Certification: Cloud Architect"
+    },
+    {
+        "id":"17",
+        "content":"Preparing for Google Cloud Certification: Cloud Data Engineer"
+    },
+    {
+        "id":"18",
+        "content":"Launch your career"
+    },
+    {
+        "id":"19",
+        "content":"Prepare for a certification"
+    },
+    {
+        "id":"20",
+        "content":"Advance your career"
+    }
+]
