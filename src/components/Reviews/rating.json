@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "lang": "VS",
+        "date": "Jun 28, 2022",
+        "desc": "Excellent balance of theory and practice provided by exceptionally well documented and visualized examples and code in Jupyter Notebooks that one can interact with to build intuition."
+    },
+    {
+        "id": "2",
+        "lang": "JA",
+        "date": "Jul 5, 2022",
+        "desc": "Andrew Ng is the best proctor for Machine Learning. The course has been perfectly balanced with thoritical as well as practical aspects. After this course I feel so confident. From ZERO to HERO"
+    },
+    {
+        "id": "3",
+        "lang": "YW",
+        "date": "Jul 5, 2022",
+        "desc": "Professor Ng is so kind and nice. Slows down and explains step by step to make it easier to understand, and provides so many python program examples throughout the lecture."
+    },
+    {
+        "id": "4",
+        "lang": "SK",
+        "date": "Jul 5, 2022",
+        "desc": "This is one of the best course available out there. However the programming is little tough, though hints were there but providing some prerequisites would help better."
+    }
+]

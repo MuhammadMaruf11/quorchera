@@ -50,7 +50,7 @@ const Faq = () => {
             </AccordionItem>
           </Accordion>
           <Accordion className="mb-5 border-2">
-            <AccordionItem>
+            <AccordionItem className='bg-white'>
               <AccordionItemHeading>
                 <AccordionItemButton>
                   <span className='text-sm'>What will I get if I subscribe to this Specialization?</span>
@@ -70,7 +70,7 @@ const Faq = () => {
             </AccordionItem>
           </Accordion>
           <Accordion className="mb-5 border-2">
-            <AccordionItem>
+            <AccordionItem className='bg-white'>
               <AccordionItemHeading>
                 <AccordionItemButton>
                  <span className='text-sm'> Is financial aid available?</span>
