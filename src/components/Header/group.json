@@ -1,0 +1,17 @@
+[
+    {
+        "id":"1",
+        "title":"Online Degree",
+        "desc":"Explore Bachelor's & Master's degrees"
+    },
+    {
+        "id":"2",
+        "title":"MasterTrack™",
+        "desc":"Earn credit towards a Master's degree"
+    },
+    {
+        "id":"3",
+        "title":"University Certificate",
+        "desc":"Advance your career with graduate-level learning"
+    }
+]

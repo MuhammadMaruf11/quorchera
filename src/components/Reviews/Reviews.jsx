@@ -23,6 +23,9 @@ const Reviews = () => {
               </Link>
             </div>
           </div>
+          <div className="status">
+            
+          </div>
         </div>
         <div className="w-2/3 pr-20">
           <h4 className="text-sm font-semibold mb-7 pt-14">
@@ -38,7 +41,7 @@ const Reviews = () => {
                 <i className="text-yellow-300 fa-solid fa-star"></i>
                 <i className="text-yellow-300 fa-solid fa-star"></i>
               </div>
-              <p className='mb-2'>
+              <p className="mb-2">
                 by {index.lang} {index.date}
               </p>
               <p>{index.desc}</p>

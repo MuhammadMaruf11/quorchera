@@ -12,7 +12,6 @@ then
 
 build custom modules
 
-
 create router-dom for single page applicatio
 
 ### npm install react-router-dom@6
@@ -20,6 +19,10 @@ create router-dom for single page applicatio
 create accordion
 
 ### npm i react-accessible-accordion
+
+create tabs
+
+### npm i react-tabs
 
 In the project directory, you can run:
 
