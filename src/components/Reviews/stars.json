@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "stars": "5 stars",
+        "percent":"90.09%"
+    },
+    {
+        "id": "2",
+        "stars": "4 stars",
+        "percent":"7.60%"
+    },
+    {
+        "id": "3",
+        "stars": "3 stars",
+        "percent":"1.43%"
+    },
+    {
+        "id": "4",
+        "stars": "2 stars",
+        "percent":"0.74%"
+    },
+    {
+        "id": "5",
+        "stars": "1 stars",
+        "percent":"0.14%"
+    }
+]

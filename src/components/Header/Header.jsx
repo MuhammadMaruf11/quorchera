@@ -19,7 +19,7 @@ const Header = () => {
               type="text"
               placeholder="What do you want to learn?"
             />
-            <i className="absolute bottom-0 right-0 p-3 font-normal text-white bg-blue-600 fa-thin fa-magnifying-glass"></i>
+            <i className="absolute bottom-0 right-0 p-3 font-normal text-white bg-blue-600 cursor-pointer fa-thin fa-magnifying-glass"></i>
           </div>
         </div>
         <div className="w-2/5 text-end">

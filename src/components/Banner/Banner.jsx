@@ -44,13 +44,13 @@ const Banner = () => {
           </h1>
           <div className="flex items-center mb-8">
             <div className="p-0 m-0 text-xs">
-              <i className="mr-1 text-yellow-300 fa-solid fa-star"></i>
-              <i className="mr-1 text-yellow-300 fa-solid fa-star"></i>
-              <i className="mr-1 text-yellow-300 fa-solid fa-star"></i>
-              <i className="mr-1 text-yellow-300 fa-solid fa-star"></i>
+              <i className="mr-1 text-yellow-500 fa-solid fa-star"></i>
+              <i className="mr-1 text-yellow-500 fa-solid fa-star"></i>
+              <i className="mr-1 text-yellow-500 fa-solid fa-star"></i>
+              <i className="mr-1 text-yellow-500 fa-solid fa-star"></i>
               <i className="text-yellow-300 fa-solid fa-star"></i>
             </div>
-            <span className="mx-2 text-yellow-300">4.9</span>
+            <span className="mx-2 text-yellow-500">4.9</span>
             <span>
               <Link
                 className="mr-2 hover:underline hover:underline-offset-1"
@@ -61,7 +61,7 @@ const Banner = () => {
               |
             </span>
             <span>
-              <i className="mx-2 text-yellow-300 fa-solid fa-thumbs-up"></i>
+              <i className="mx-2 text-yellow-500 fa-solid fa-thumbs-up"></i>
               <Link className="hover:underline hover:underline-offset-1" to="/">
                 99%
               </Link>
@@ -79,18 +79,30 @@ const Banner = () => {
                 </span>
               </Link>
             </div>
-            <Link
-              to="/"
-              className="px-2 text-[10px] font-bold uppercase bg-blue-600 border border-white"
-            >
-              top instructors
-            </Link>
+            <div className="relative">
+              <Link
+                to="/"
+                className="px-2 text-[10px] font-bold uppercase bg-blue-600 border border-white"
+              >
+                top instructors
+              </Link>
+              <div className="absolute hidden bottom-1 right-1">asdjflkjsdf</div>
+            </div>
           </div>
           <div className="flex items-center mb-6">
-            <Link to="/" className="px-8 py-4 mr-6 font-bold text-center duration-300 ease-in-out bg-red-400 hover:bg-red-700">
-              Enroll for Free <br /> <span className="text-xs">starts Jul 26</span>
+            <Link
+              to="/"
+              className="px-8 py-4 mr-6 font-bold text-center duration-300 ease-in-out bg-red-400 hover:bg-red-700"
+            >
+              Enroll for Free <br />{" "}
+              <span className="text-xs">starts Jul 26</span>
             </Link>
-            <Link to='/' className="text-xs font-bold hover:underline hover:underline-offset-1">Financial aid available</Link>
+            <Link
+              to="/"
+              className="text-xs font-bold hover:underline hover:underline-offset-1"
+            >
+              Financial aid available
+            </Link>
           </div>
           <div className="jfs">
             <span className="mr-2 font-bold">67,511</span>
