@@ -10,7 +10,7 @@ const Header = () => {
           <div className="inline-block mr-2 text-3xl font-bold text-blue-700">
             <Link to="/">quorchera</Link>
           </div>
-          <div className="inline-block px-3 py-2 mr-2 text-sm font-semibold text-white transition-all duration-300 ease-in bg-blue-600 border-2 border-black rounded-md shadow-md cursor-default hover:bg-white hover:text-blue-700">
+          <div className="inline-block px-3 py-2 mr-2 text-sm font-semibold text-white transition-all ease-out bg-blue-600 border-2 border-black rounded-md shadow-md cursor-default delay-800 hover:bg-white hover:text-blue-700">
             Explore<i className="ml-2 text-xs fa-solid fa-chevron-down"></i>
           </div>
           <div className="relative inline-block search-bar">
@@ -35,7 +35,7 @@ const Header = () => {
                     {group.map((index) => (
                       <li className="p-3.5 text-sm hover:bg-slate-100 last:mb-0" key={index.id}>
                         <Link to="/">
-                          <h2 className="font-bold">{index.title}</h2>{" "}
+                          <h2 className="font-bold">{index.title}</h2>
                           <span>{index.desc}</span>
                         </Link>
                       </li>

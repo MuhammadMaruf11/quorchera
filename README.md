@@ -24,6 +24,14 @@ create tabs
 
 ### npm i react-tabs
 
+create react slick
+
+### npm i react-slick
+
+create slick carousel css
+
+### npm install slick-carousel
+
 In the project directory, you can run:
 
 ### `npm start`

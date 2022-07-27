@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 import {
   Accordion,
   AccordionItem,
@@ -18,14 +18,16 @@ const Faq = () => {
         </h2>
         <div className="w-2/3 mx-auto">
           <Accordion className="mb-5 border-2">
-            <AccordionItem className='bg-white'>
+            <AccordionItem className="bg-white">
               <AccordionItemHeading>
                 <AccordionItemButton>
-                 <span className='text-sm'>When will I have access to the lectures and assignments?</span> 
+                  <span className="text-sm">
+                    When will I have access to the lectures and assignments?
+                  </span>
                 </AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel>
-                <p className='text-sm'>
+                <p className="text-sm">
                   Access to lectures and assignments depends on your type of
                   enrollment. If you take a course in audit mode, you will be
                   able to see most course materials for free. To access graded
@@ -33,11 +35,11 @@ const Faq = () => {
                   purchase the Certificate experience, during or after your
                   audit. If you don't see the audit option:
                   <ul className="list-[circle] py-2 px-12">
-                    <li className='text-sm'>
+                    <li className="text-sm">
                       The course may not offer an audit option. You can try a
                       Free Trial instead, or apply for Financial Aid.
                     </li>
-                    <li className='text-sm'>
+                    <li className="text-sm">
                       The course may offer 'Full Course, No Certificate'
                       instead. This option lets you see all course materials,
                       submit required assessments, and get a final grade. This
@@ -50,14 +52,16 @@ const Faq = () => {
             </AccordionItem>
           </Accordion>
           <Accordion className="mb-5 border-2">
-            <AccordionItem className='bg-white'>
+            <AccordionItem className="bg-white">
               <AccordionItemHeading>
                 <AccordionItemButton>
-                  <span className='text-sm'>What will I get if I subscribe to this Specialization?</span>
+                  <span className="text-sm">
+                    What will I get if I subscribe to this Specialization?
+                  </span>
                 </AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel>
-                <p className='text-sm'>
+                <p className="text-sm">
                   When you enroll in the course, you get access to all of the
                   courses in the Specialization, and you earn a certificate when
                   you complete the work. Your electronic Certificate will be
@@ -70,14 +74,31 @@ const Faq = () => {
             </AccordionItem>
           </Accordion>
           <Accordion className="mb-5 border-2">
-            <AccordionItem className='bg-white'>
+            <AccordionItem className="bg-white">
               <AccordionItemHeading>
                 <AccordionItemButton>
-                 <span className='text-sm'> Is financial aid available?</span>
+                  <span className="text-sm">What is the refund policy?</span>
                 </AccordionItemButton>
               </AccordionItemHeading>
               <AccordionItemPanel>
-                <p className='text-sm'>
+                <p className="text-sm">
+                  If you subscribed, you get a 7-day free trial during which you
+                  can cancel at no penalty. After that, we don’t give refunds,
+                  but you can cancel your subscription at any time.
+                  <Link to='/' className="ml-1 text-blue-700 underline underline-offset-1">See our full refund policy.</Link>
+                </p>
+              </AccordionItemPanel>
+            </AccordionItem>
+          </Accordion>
+          <Accordion className="mb-5 border-2">
+            <AccordionItem className="bg-white">
+              <AccordionItemHeading>
+                <AccordionItemButton>
+                  <span className="text-sm"> Is financial aid available?</span>
+                </AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel>
+                <p className="text-sm">
                   Yes. In select learning programs, you can apply for financial
                   aid or a scholarship if you can’t afford the enrollment fee.
                   If fin aid or scholarship is available for your learning
@@ -88,7 +109,12 @@ const Faq = () => {
             </AccordionItem>
           </Accordion>
         </div>
-        <p className='text-[14.5px] text-center'>More questions? Visit the <Link className='font-bold text-blue-700' to='/'>Learner Help Center.</Link></p>
+        <p className="text-[14.5px] text-center">
+          More questions? Visit the{" "}
+          <Link className="font-bold text-blue-700" to="/">
+            Learner Help Center.
+          </Link>
+        </p>
       </div>
     </div>
   );

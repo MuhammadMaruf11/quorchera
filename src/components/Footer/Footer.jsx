@@ -77,22 +77,22 @@ const Footer = () => {
             </li>
             <li className="inline-block mr-4 text-white bg-black rounded-full">
               <Link to="/">
-                <i class="fa-brands fa-linkedin-in w-7 h-7 leading-7 text-center"></i>
+                <i className="leading-7 text-center fa-brands fa-linkedin-in w-7 h-7"></i>
               </Link>
             </li>
             <li className="inline-block mr-4 text-white bg-black rounded-full">
               <Link to="/">
-              <i class="fa-brands fa-twitter w-7 h-7 leading-7 text-center"></i>
+              <i className="leading-7 text-center fa-brands fa-twitter w-7 h-7"></i>
               </Link>
             </li>
             <li className="inline-block mr-4 text-white bg-black rounded-full">
               <Link to="/">
-              <i class="fa-brands fa-youtube w-7 h-7 leading-7 text-center"></i>
+              <i className="leading-7 text-center fa-brands fa-youtube w-7 h-7"></i>
               </Link>
             </li>
             <li className="inline-block mr-4 text-white bg-black rounded-full">
               <Link to="/">
-              <i class="fa-brands fa-instagram w-7 h-7 leading-7 text-center"></i>
+              <i className="leading-7 text-center fa-brands fa-instagram w-7 h-7"></i>
               </Link>
             </li>
           </ul>
