@@ -86,13 +86,15 @@ const Banner = () => {
               >
                 top instructors
               </Link>
-              <div className="absolute hidden bottom-1 right-1">asdjflkjsdf</div>
+              <div className="absolute hidden bottom-1 right-1">
+                asdjflkjsdf
+              </div>
             </div>
           </div>
           <div className="flex items-center mb-6">
             <Link
               to="/"
-              className="px-8 py-4 mr-6 font-bold text-center duration-300 ease-in-out bg-red-400 hover:bg-red-700"
+              className="px-10 py-3 mr-6 text-lg font-bold text-center duration-300 ease-in-out bg-red-400 hover:bg-red-700"
             >
               Enroll for Free <br />{" "}
               <span className="text-xs">starts Jul 26</span>
@@ -104,13 +106,12 @@ const Banner = () => {
               Financial aid available
             </Link>
           </div>
-          <div className="jfs">
-            <span className="mr-2 font-bold">67,511</span>
-            <span>already enrolled</span>
+          <div className="mb-10 text-lg">
+            <strong>67,511</strong> already enrolled
           </div>
         </div>
         <div className="w-2/5">
-          <p className="mx-4 mb-4 text-sm">Offered by</p>
+          <p className="mx-4 mb-4">Offered by</p>
           <img src={images.deepLearning} alt="" />
           <img src={images.stanford} alt="" />
         </div>

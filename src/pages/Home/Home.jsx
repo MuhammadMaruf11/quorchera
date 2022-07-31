@@ -7,14 +7,17 @@ import Reviews from "../../components/Reviews/Reviews";
 import Banner from "../../components/Banner/Banner";
 import About from "../../components/About/About";
 import Courses from "../../components/Courses/Courses";
+import Instructors from "../../components/Instructors/Instructors";
+import Syll from "../../components/Syll/Syll"
 
 const Home = () => {
-  
   return (
     <Layout>
       <Banner />
       <About />
+      <Instructors />
       <Courses />
+      <Syll/>
       <Reviews />
       <Learning />
       <Faq />

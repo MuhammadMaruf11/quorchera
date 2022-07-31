@@ -1,0 +1,26 @@
+[
+    {
+        "id":"1",
+        "title":"About"
+    },
+    {
+        "id":"2",
+        "title":"Instructors"
+    },
+    {
+        "id":"3",
+        "title":"Syllabus"
+    },
+    {
+        "id":"4",
+        "title":"Reviews"
+    },
+    {
+        "id":"5",
+        "title":"Enrollment Options"
+    },
+    {
+        "id":"6",
+        "title":"FAQ"
+    }
+]

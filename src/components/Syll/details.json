@@ -1,0 +1,251 @@
+[
+    {
+        "id": "1",
+        "week": "week",
+        "title": "7 hours to complete",
+        "heading": "Week 1: Introduction to Machine Learning",
+        "description": "Welcome to the Machine Learning Specialization! You're joining millions of others who have taken either this or the original course, which led to the founding of Coursera, and has helped millions of other learners, like you, take a look at the exciting world of machine learning!",
+        "total": "20 videos (Total 147 min)",
+        "videos": "20 videos",
+        "practices":"3 practice exercises",
+        "videoList": [
+            {
+                "video": "Welcome to machine learning!",
+                "duration": "2m"
+            },
+            {
+                "video": "Applications of machine learning",
+                "duration": "4m"
+            },
+            {
+                "video": "What is machine learning?",
+                "duration": "5m"
+            },
+            {
+                "video": "Supervised learning part 1",
+                "duration": "6m"
+            },
+            {
+                "video": "Gradient descent for linear regression",
+                "duration": "6m"
+            },
+            {
+                "video": "Supervised learning part 2",
+                "duration": "7m"
+            },
+            {
+                "video": "Unsupervised learning part 1",
+                "duration": "8m"
+            },
+            {
+                "video": "Unsupervised learning part 2",
+                "duration": "3m"
+            },
+            {
+                "video": "Jupyter Notebooks",
+                "duration": "4m"
+            },
+            {
+                "video": "Linear regression model part 1",
+                "duration": "10m"
+            },
+            {
+                "video": "Linear regression model part 2",
+                "duration": "6m"
+            },
+            {
+                "video": "Cost function formula",
+                "duration": "9m"
+            },
+            {
+                "video": "Cost function intuition",
+                "duration": "15m"
+            },
+            {
+                "video": "Visualizing the cost function",
+                "duration": "8m"
+            },
+            {
+                "video": "Visualization examples",
+                "duration": "6m"
+            },
+            {
+                "video": "Gradient descent",
+                "duration": "8m"
+            },
+            {
+                "video": "Implementing gradient descent",
+                "duration": "9m"
+            },
+            {
+                "video": "Gradient descent intuition",
+                "duration": "7m"
+            },
+            {
+                "video": "Learning rate",
+                "duration": "9m"
+            },
+            {
+                "video": "Running gradient descent",
+                "duration": "5m"
+            }
+        ],
+        "practiceExercise": [
+            {
+                "practice": "Supervised vs unsupervised learning",
+                "duration": "15m"
+            },
+            {
+                "practice": "Regression",
+                "duration": "10m"
+            },
+            {
+                "practice": "Train the model with gradient descent",
+                "duration": "10m"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "week": "week",
+        "title": "10 hours to complete",
+        "heading": "Week 2: Regression with multiple input variables",
+        "description": "This week, you'll extend linear regression to handle multiple input features. You'll also learn some methods for improving your model's training and performance, such as vectorization, feature scaling, feature engineering and polynomial regression. At the end of the week, you'll get to practice implementing linear regression in code.",
+        "total": "10 videos (Total 66 min)",
+        "videos": "10 videos",
+        "practices":"2 practice exercises",
+        "videoList": [
+            {
+                "video": "Multiple features",
+                "duration": "9m"
+            },
+            {
+                "video": "Polynomial regression",
+                "duration": "5m"
+            },
+            {
+                "video": "Vectorization part 1",
+                "duration": "6m"
+            },
+            {
+                "video": "Vectorization part 2",
+                "duration": "6m"
+            },
+            {
+                "video": "Gradient descent for multiple linear regression",
+                "duration": "7m"
+            },
+            {
+                "video": "Feature scaling part 1",
+                "duration": "6m"
+            },
+            {
+                "video": "Feature scaling part 2",
+                "duration": "7m"
+            },
+            {
+                "video": "Checking gradient descent for convergence",
+                "duration": "5m"
+            },
+            {
+                "video": "Choosing the learning rate",
+                "duration": "6m"
+            },
+            {
+                "video": "Feature engineering",
+                "duration": "3m"
+            }
+        ],
+        "practiceExercise": [
+            {
+                "practice": "Multiple linear regression",
+                "duration": "15m"
+            },
+            {
+                "practice": "Gradient descent in practice",
+                "duration": "30m"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "week": "week",
+        "title": "16 hours to complete",
+        "heading": "Week 3: Classification",
+        "description": "This week, you'll learn the other type of supervised learning, classification. You'll learn how to predict categories using the logistic regression model. You'll learn about the problem of overfitting, and how to handle this problem with a method called regularization. You'll get to practice implementing logistic regression with regularization at the end of this week!",
+        "total": "11 videos (Total 98 min), 1 reading, 5 quizzes",
+        "videos": "11 videos",
+        "practices":"4 practice exercises",
+        "videoList": [
+            {
+                "video": "Motivations",
+                "duration": "9m"
+            },
+            {
+                "video": "Logistic regression",
+                "duration": "9m"
+            },
+            {
+                "video": "Decision boundary",
+                "duration": "10m"
+            },
+            {
+                "video": "Cost function for logistic regression",
+                "duration": "11m"
+            },
+            {
+                "video": "Simplified Cost Function for Logistic Regression",
+                "duration": "5m"
+            },
+            {
+                "video": "Gradient Descent Implementation",
+                "duration": "6m"
+            },
+            {
+                "video": "The problem of overfitting",
+                "duration": "11m"
+            },
+            {
+                "video": "Addressing overfitting",
+                "duration": "8m"
+            },
+            {
+                "video": "Cost function with regularization",
+                "duration": "9m"
+            },
+            {
+                "video": "Regularized linear regression",
+                "duration": "8m"
+            },
+            {
+                "video": "Regularized logistic regression",
+                "duration": "5m"
+            }
+        ],
+        "reading":[
+            {
+                "heading":"1 reading",
+                "title":"acknowledgements",
+                "duration":"10m"
+            }
+        ],
+        "practiceExercise": [
+            {
+                "practice": " Classification with logistic regression",
+                "duration": "30m"
+            },
+            {
+                "practice": " Cost function for logistic regression",
+                "duration": "30m"
+            },
+            {
+                "practice": " Gradient descent for logistic regression",
+                "duration": "30m"
+            },
+            {
+                "practice": " The problem of overfitting",
+                "duration": "30m"
+            }
+        ]
+    }
+]
