@@ -16,7 +16,7 @@ const Faq = () => {
         <h2 className="mb-16 text-2xl text-center text-gray-700">
           Frequently Asked Questions
         </h2>
-        <div className="w-2/3 mx-auto">
+        <div className="px-4 mx-auto md:w-2/3">
           <Accordion className="mb-5 border-2">
             <AccordionItem className="bg-white">
               <AccordionItemHeading>

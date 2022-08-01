@@ -6,8 +6,8 @@ import stars from "./stars.json";
 const Reviews = () => {
   return (
     <div className="py-16 bg-gray-100">
-      <div className="container flex mx-auto">
-        <div className="w-1/3">
+      <div className="container px-4 mx-auto md:flex lg:px-8 xl:px-0">
+        <div className="md:w-1/3">
           <h2 className="mb-8 text-2xl font-bold">Reviews</h2>
           <div className="flex items-center mb-8">
             <h2 className="mr-3 text-5xl font-bold">4.9</h2>
@@ -39,7 +39,7 @@ const Reviews = () => {
             ))}
           </div>
         </div>
-        <div className="w-2/3 pr-20">
+        <div className="md:w-2/3 lg:pr-20">
           <h4 className="text-sm font-semibold mb-7 pt-14">
             TOP REVIEWS FROM SUPERVISED MACHINE LEARNING: REGRESSION AND
             CLASSIFICATION

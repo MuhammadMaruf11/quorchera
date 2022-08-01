@@ -1,0 +1,22 @@
+[
+    {
+        "id":"1",
+        "title":"Regularization to Avoid Overfitting"
+    },
+    {
+        "id":"2",
+        "title":"Gradient Descent"
+    },
+    {
+        "id":"3",
+        "title":"Supervised Learning"
+    },
+    {
+        "id":"4",
+        "title":"Linear Regression"
+    },
+    {
+        "id":"5",
+        "title":"Logistic Regression for Classification"
+    }
+]

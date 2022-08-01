@@ -7,7 +7,7 @@ const Syllabus = () => {
 
   return (
     <>
-      <div className="container py-16 mx-auto">
+      <div className="container px-4 py-16 mx-auto xl:px-0">
         <div className="text-center">
           <h2 className="mb-2 text-2xl">
             Syllabus - What you will learn from this course
@@ -20,20 +20,20 @@ const Syllabus = () => {
           </p>
         </div>
       </div>
-      <div className="container mx-auto">
+      <div className="container px-4 mx-auto xl:px-0">
         {details &&
           details.map((syllabus) => {
             return (
-              <div className="flex w-full" key={syllabus.id}>
-                <div className="w-1/5">
-                  <div className="w-1/3 text-center">
-                    <h3 className="tracking-[.2em] mb-5 uppercase">
+              <div className="flex flex-col justify-center w-full lg:flex-row" key={syllabus.id}>
+                <div className="mb-20 lg:w-1/5 lg:mb-0">
+                  <div className="text-center lg:w-1/3">
+                    <h3 className="tracking-[.2em] md:text-base text-2xl md:font-normal font-bold md:block inline-block mb-5 uppercase">
                       {syllabus.week}
                     </h3>
-                    <h2 className="text-6xl font-light">{syllabus.id}</h2>
+                    <h2 className="inline-block text-2xl font-bold md:font-light md:text-6xl md:block">{syllabus.id}</h2>
                   </div>
                 </div>
-                <div className="w-4/5">
+                <div className="w-11/12 mx-auto md:w-4/5">
                   <h4 className="flex flex-wrap items-center mb-8">
                     <i className="fa-light mr-4 rounded-[50%] text-center text-xl fa-clock bg-gradient-to-r h-10 w-10 leading-10 text-white opacity-75 from-red-600 to-yellow-500"></i>
                     <span className="font-semibold">{syllabus.title}</span>
@@ -44,7 +44,7 @@ const Syllabus = () => {
                   <p className="mb-8">{syllabus.description}</p>
                   <p className="flex flex-wrap items-center pb-8 mb-4 border-b border-gray-300 last:border-none ">
                     <i className="fa-regular mr-4 rounded-[50%] text-center text-xl fa-circle-book-open bg-gradient-to-r h-10 w-10 leading-10 text-white opacity-75 from-cyan-400 to-teal-600"></i>
-                    <span>{syllabus.total}</span>
+                    <span className="w-[200px] md:w-auto">{syllabus.total}</span>
                     <span
                       onClick={() => setIsToggled(!isToggled)}
                       className="ml-3 text-sm font-bold text-blue-700 cursor-pointer hover:underline hover:underline-offset-1"
