@@ -13,7 +13,7 @@ const Header = () => {
             <span className="line h-0.5 w-5 my-0.5 bg-black"></span>
           </button>
         </div>
-        <div className="w-1/3 2xl:w-2/5 xl:w-1/2 lg:w-2/5">
+        <div className="w-1/3 2xl:w-2/5 xl:w-2/5 lg:w-2/5">
           <div className="flex mr-2 text-3xl font-bold text-blue-700 lg:inline-block lg:text-start">
             <Link to="/" className="mx-auto">
               quorchera
@@ -24,21 +24,21 @@ const Header = () => {
           </div>
           <div className="relative hidden lg:inline-block search-bar">
             <input
-              className="px-2 2xl:w-[480px] xl:w-[320px] lg:w-[140px] py-1.5 border-2 border-gray-400"
+              className="px-2 2xl:w-[480px] xl:w-[260px] lg:w-[140px] py-1.5 border-2 border-gray-400"
               type="text"
               placeholder="What do you want to learn?"
             />
             <i className="absolute bottom-0 right-0 p-3 font-normal text-white bg-blue-600 cursor-pointer fa-thin fa-magnifying-glass"></i>
           </div>
         </div>
-        <div className="w-1/3 2xl:w-2/5 xl:w-1/2 lg:w-3/5 text-end">
+        <div className="w-1/3 2xl:w-2/5 xl:w-3/5 lg:w-3/5 text-end">
           <ul className="hidden mx-2 lg:inline-block">
             <li className="relative inline-block mx-2 transition duration-300 ease-in-out group">
               <span className="items-center hidden text-sm font-normal transition duration-300 ease-in cursor-pointer xl:flex">
                 Online Degrees
                 <i className="ml-1.5 text-lg fa-light fa-chevron-down group-hover:rotate-180"></i>
               </span>
-              <span className="flex items-center text-sm font-normal transition duration-300 ease-in cursor-pointer xl:none">
+              <span className="flex items-center text-sm font-normal transition duration-300 ease-in cursor-pointer xl:hidden">
                 Degrees
                 <i className="ml-1.5 text-lg fa-light fa-chevron-down group-hover:rotate-180"></i>
               </span>

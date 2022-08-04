@@ -24,13 +24,9 @@ create tabs
 
 ### npm i react-tabs
 
-create react slick
+create swiper slider 
 
-### npm i react-slick
-
-create slick carousel css
-
-### npm install slick-carousel
+### npm install swiper
 
 In the project directory, you can run:
 
