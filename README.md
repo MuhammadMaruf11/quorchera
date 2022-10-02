@@ -14,19 +14,19 @@ build custom modules
 
 create router-dom for single page applicatio
 
-### npm install react-router-dom@6
+### npm install react-router-dom@6 (if needed)
 
 create accordion
 
-### npm i react-accessible-accordion
+### npm i react-accessible-accordion (if needed)
 
 create tabs
 
-### npm i react-tabs
+### npm i react-tabs (if needed)
 
 create swiper slider 
 
-### npm install swiper
+### npm install swiper (if needed)
 
 In the project directory, you can run:
 
